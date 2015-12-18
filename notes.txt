@@ -1,5 +1,11 @@
-https://github.com/manpow/manpow.github.io
-http://manpow.github.io/
-https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
+references
+	https://github.com/manpow/manpow.github.io
+	http://manpow.github.io/
+	https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 
-markdown-html --style static/css/bootstrap.min.css index.md > index.html
+markdown-html tool
+	https://www.npmjs.com/package/markdown-html
+	markdown-html --title "ManPow Tech Support" --template template.html --style static/css/bootstrap.min.css index.md > index.html
+
+todo
+	update styling
