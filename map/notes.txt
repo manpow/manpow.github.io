@@ -1,0 +1,11 @@
+objective
+	map all the properties in the last year by office
+
+
+AIzaSyB5u7No-pZwIp6hGhjWyxzCjPAd0VrvyCA
+
+. ../.env; dblive < properties.sql 2> /dev/null > properties.tsv; py3 tsvjson.py | jq . > properties.json
+'[.[] | {latitude, longitude, streetname, streetnum, zipcode, office_name}]'
+2528
+
+open -a 'Google Chrome' --args -allow-file-access-from-files --profile-directory="Profile 1" file:///Users/noahcoad/code/work/manpow/data_analysis/map_nwa_properties/map.html
