@@ -4,7 +4,7 @@ var locations = {
 	"Fort Worth": {lat: 32.7511755, lng: -97.3312415},
 	"Atlanta": {lat: 33.7486523, lng: -84.3902076},
 	"Austin": {lat: 30.2615095, lng: -97.8200443},
-	"Denton": {lat: 33.0535402, lng: -97.1207847},
+	"Denton": {lat: 32.9544952, lng: -96.9590797},
 	"Houston Central": {lat: 29.7552847, lng: -95.383594},
 	"Philadelphia": {lat: 39.9519665, lng: -75.1695827},
 	"San Antonio": {lat: 29.4241866, lng: -98.5043151},
