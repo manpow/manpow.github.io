@@ -41,7 +41,8 @@ $(function() {
 function selectOffice(office) {
 	console.log("show office: " + office)
 	map.setCenter(locations[office]);
-	$('#office').val(office)
+	$('#office').val(office);
+	$('#info').text(office_sales[office].length + " properties");
 
 	// clear all existing markers
 	_(office_sales).chain().map(function(k, v) { return k }).flatten().each(function(a) { if (a.marker) a.marker.setMap(null); });
