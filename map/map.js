@@ -6,9 +6,12 @@ var locations = {
 	"Austin": {lat: 30.2615095, lng: -97.8200443},
 	"Denton": {lat: 32.9544952, lng: -96.9590797},
 	"Houston Central": {lat: 29.7552847, lng: -95.383594},
+	"Houston Clearlake": {lat: 29.7552847, lng: -95.383594},
 	"Philadelphia": {lat: 39.9519665, lng: -75.1695827},
 	"San Antonio": {lat: 29.4241866, lng: -98.5043151},
+	"San Antonio Central": {lat: 29.4241866, lng: -98.5043151},
 	"St. Petersburg": {lat: 27.7786988, lng: -82.6898492},
+	"Orange": {lat: 34.0500547, lng: -118.2438843},
 	"Los Angeles": {lat: 34.0500547, lng: -118.2438843}
 };
 var map;

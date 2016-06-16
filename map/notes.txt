@@ -1,5 +1,9 @@
-objective
-	map all the properties in the last year by office
+
+:: objective
+map all the properties in the last year by office
+
+:: hosted
+http://manpow.github.io/map
 
 :: misc
 AIzaSyB5u7No-pZwIp6hGhjWyxzCjPAd0VrvyCA
