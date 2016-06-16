@@ -1,6 +1,7 @@
 references
 	https://github.com/manpow/manpow.github.io
 	http://manpow.github.io/
+	http://manpow.github.io/map
 	https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 
 markdown-html tool
