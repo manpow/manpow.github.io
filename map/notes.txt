@@ -21,9 +21,11 @@ https://hook.io/noahcoad/datastore/logs
 1514 records in Jan 8th 2015 - Jan 8th 2016
 1558 records in 2015
 
-
 :: creating properties.json
 ssh ovh2 mysql nwalive_db < properties.sql > properties.tsv; py3 tsvjson.py | jq . > properties.json
 
 :: queries
 cat properties.json | jq '. | length'
+
+:: backlog
+sort office names alphabetically
